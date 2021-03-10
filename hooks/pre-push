@@ -1,4 +1,0 @@
-#!/bin/sh
-
-pipenv run nbstripout .
-git add . && git commit -m "style: remove notebook output"
